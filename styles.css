@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f8f9fa; /* Grey background */
+    background-color: #f0f0f0; /* Grey background */
 }
 
 .container {
@@ -22,11 +22,18 @@ body {
     z-index: 1; /* Ensure the border stays above the content */
 }
 
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
 .logo {
-    position: absolute;
-    top: 10px; /* Adjust the top position of the logo */
-    left: 20px; /* Adjust the left position of the logo */
-    max-height: 80px; /* Adjust the maximum height of the logo */
-    z-index: 2; /* Ensure the logo stays above the white border */
+    max-height: 80px; /* Adjust the maximum height of the logos */
+}
+
+.logo-name {
+    color: #000; /* Set the color of the names */
+    font-size: 20px; /* Adjust the font size of the names */
 }
 
