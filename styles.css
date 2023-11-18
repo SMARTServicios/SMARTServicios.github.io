@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    position: relative;
+    position: absolute;
     padding-top: 100px; /* Adjust the padding to make space for the white top border */
 }
 
