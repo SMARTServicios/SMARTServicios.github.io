@@ -8,9 +8,21 @@ body {
 
 .dashboard-container {
     text-align: center;
-    border-top: 50px solid #ff0000; /* Red border */
-    padding: 20px;
+    padding: 70px 20px 20px; /* Adjust the padding to make space for the fixed border */
     background-color: #ffffff; /* Optional: Add a white background to the container */
+    overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+}
+
+.dashboard-container::before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Red border with 50 pixels height */
+    background-color: #ff0000; /* Red color for the border */
+    z-index: 1; /* Ensure the border stays above the content */
 }
 
 /* Add your additional styles here, if needed */
