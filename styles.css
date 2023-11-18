@@ -7,6 +7,7 @@ body {
 
 .container {
     position: relative;
+    padding-top: 100px; /* Adjust the padding to make space for the white top border */
 }
 
 .container::before {
@@ -20,3 +21,12 @@ body {
     background-color: #ffffff; /* White color for the border */
     z-index: 1; /* Ensure the border stays above the content */
 }
+
+.logo {
+    position: absolute;
+    top: 10px; /* Adjust the top position of the logo */
+    left: 20px; /* Adjust the left position of the logo */
+    max-height: 80px; /* Adjust the maximum height of the logo */
+    z-index: 2; /* Ensure the logo stays above the white border */
+}
+
