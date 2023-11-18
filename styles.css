@@ -28,7 +28,7 @@ body {
 }
 
 .logo-name {
-    color: #000; /* Set the color of the names */
+    color: #f0f0f0; /* Set the color of the names */
     font-size: 20px; /* Adjust the font size of the names */
 }
 
@@ -39,7 +39,7 @@ body {
 
 .drop-label {
     background-color: #f0f0f0; /* Grey background */
-    color: #000;
+    color: #f0f0f0;
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
