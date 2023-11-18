@@ -26,10 +26,14 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    position: relative; /* Needed for absolute positioning of logos */
+    z-index: 2; /* Ensure logos stay above the white border */
 }
 
 .logo {
     max-height: 80px; /* Adjust the maximum height of the logos */
+    position: absolute;
+    top: 0; /* Align logos to the top of their container */
 }
 
 .logo-name {
