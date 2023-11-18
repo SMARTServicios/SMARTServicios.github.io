@@ -33,8 +33,9 @@ body {
 .top-bar .logo-container {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
     left: 20px;
+    display: flex;
     align-items: center; /* Align logos vertically in the center */
 }
 
