@@ -31,10 +31,7 @@ body {
 }
 
 .top-bar .logo-container {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 20px;
+    position: relative; /* Change to relative */
     display: flex;
     align-items: center; /* Align logos vertically in the center */
 }
@@ -45,7 +42,7 @@ body {
 }
 
 .logo-name {
-    display: none; /* Hide the logo names */
+    /* Remove or adjust styles for logo name visibility */
 }
 
 .dropdown-container {
