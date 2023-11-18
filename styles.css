@@ -55,6 +55,16 @@ body {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
+    position: relative; /* Added position relative for absolute positioning */
+}
+
+.arrow-down {
+    content: "\2193"; /* Unicode arrow down character */
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .dropdown-content {
