@@ -32,11 +32,12 @@ body {
 
 .top-bar .logo-container {
     display: flex;
+    align-items: center; /* Align logos vertically in the center */
 }
 
 .logo {
-    max-height: 80px; /* Adjust the maximum height of the logos */
-    margin-right: 10px; /* Add some spacing between the logo and name */
+    max-height: 120px; /* Adjust the maximum height of the logos */
+    margin-right: 40px; /* Add some spacing between the logo and name */
 }
 
 .logo-name {
