@@ -45,7 +45,7 @@ body {
 }
 
 .logo-name {
-    display: bibe;
+    display: none; /* Hide the logo names */
 }
 
 .dropdown-container {
