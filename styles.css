@@ -3,17 +3,14 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f0f0f0; /* Fondo gris */
+    background-color: #f0f0f0; /* Grey background */
 }
 
 .dashboard-container {
     text-align: center;
-    border-top: 2px solid #ff0000; /* Borde superior rojo */
+    border-top: 2px solid #ff0000; /* Red border */
     padding: 20px;
+    background-color: #ffffff; /* Optional: Add a white background to the container */
 }
 
-iframe {
-    width: 100%;
-    height: 100vh;
-    border: none; /* Elimina el borde del iframe si lo hubiera */
-}
+/* Add your additional styles here, if needed */
