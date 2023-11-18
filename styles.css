@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    position: relative; /* Needed for absolute positioning of logos */
+    position: absolute; /* Needed for absolute positioning of logos */
     z-index: 2; /* Ensure logos stay above the white border */
 }
 
