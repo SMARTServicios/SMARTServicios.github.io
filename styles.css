@@ -44,8 +44,7 @@ body {
 }
 
 .logo-name {
-    color: #000; /* Set the color of the names */
-    font-size: 20px; /* Adjust the font size of the names */
+    display: bibe;
 }
 
 .dropdown-container {
