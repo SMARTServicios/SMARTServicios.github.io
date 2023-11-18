@@ -56,6 +56,11 @@ body {
     font-size: 16px;
     cursor: pointer;
     position: relative; /* Added position relative for absolute positioning */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.drop-label:hover {
+    color: #ff0000; /* Change color to red on hover */
 }
 
 .arrow-down {
@@ -81,6 +86,7 @@ body {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-size: 18px; /* Adjust the font size for the links */
 }
 
 .dropdown-content a:hover {
