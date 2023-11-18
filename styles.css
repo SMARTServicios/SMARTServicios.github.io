@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     padding: 20px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 .top-bar .logo-container {
@@ -51,7 +51,7 @@ body {
     background-color: #f0f0f0; /* Set initial background color to grey */
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 2;
+    z-index: 1;
 }
 
 .dropdown-content a {
