@@ -37,3 +37,7 @@ body {
     font-size: 20px; /* Adjust the font size of the names */
 }
 
+/* Optional: Center the logos vertically */
+.logo-container img {
+    align-self: center;
+}
