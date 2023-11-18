@@ -7,7 +7,7 @@ body {
 
 .container {
     position: relative;
-    padding-top: 100px; /* Adjust the padding to make space for the white top border */
+    padding-top: 130px; /* Adjust the padding to make space for the white top border */
 }
 
 .container::before {
@@ -39,7 +39,7 @@ body {
 }
 
 .logo {
-    max-height: 100px; /* Adjust the maximum height of the logos */
+    max-height: 120px; /* Adjust the maximum height of the logos */
     margin-right: 40px; /* Add some spacing between the logo and name */
 }
 
