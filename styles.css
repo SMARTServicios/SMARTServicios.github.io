@@ -53,7 +53,7 @@ body {
     background-color: #f0f0f0; /* Grey background */
     color: #000;
     padding: 10px;
-    font-size: 16px;
+    font-size: 24px;
     cursor: pointer;
     position: relative; /* Added position relative for absolute positioning */
     transition: color 0.3s; /* Smooth transition for color change */
