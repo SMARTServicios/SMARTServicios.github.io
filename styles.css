@@ -1,24 +1,19 @@
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-/* Add a fixed red border at the top of the page */
-.top-border {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 20px; /* Adjust the height as needed */
-    background-color: red;
-    z-index: 1000; /* Ensure the border stays on top of other elements */
+    box-sizing: border-box;
+    background-color: #f0f0f0; /* Fondo gris */
 }
 
 .dashboard-container {
-    margin-top: 20px; /* Adjust this margin to leave space for the fixed border */
+    text-align: center;
+    border-top: 2px solid #ff0000; /* Borde superior rojo */
+    padding: 20px;
+}
+
+iframe {
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: none; /* Elimina el borde del iframe si lo hubiera */
 }
