@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     padding: 20px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .top-bar .logo-container {
@@ -34,19 +34,19 @@ body {
 
 .dropdown-container {
     position: relative;
-}
-
-.dropdown {
     display: inline-block;
 }
 
-.dropbtn {
-    background-color: #ffffff;
+.drop-label {
+    background-color: #f0f0f0; /* Grey background */
     color: #000;
     padding: 10px;
     font-size: 16px;
-    border: none;
     cursor: pointer;
+}
+
+#dropdown-checkbox {
+    display: none; /* Hide the checkbox */
 }
 
 .dropdown-content {
@@ -55,7 +55,7 @@ body {
     background-color: #ffffff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 2;
 }
 
 .dropdown-content a {
@@ -69,11 +69,12 @@ body {
     background-color: #f1f1f1;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+#dropdown-checkbox:checked + .dropdown-content {
+    display: block; /* Show dropdown when checkbox is checked */
 }
 
 /* Optional: Center the dropdown text vertically */
 .dropdown-content a {
     line-height: 36px;
 }
+
