@@ -3,13 +3,14 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f8f9fa; /* Grey background */
+    background-color: #f0f0f0; /* Grey background */
 }
 
 .dashboard-container {
     text-align: center;
     padding: 20px; /* Adjust the padding as needed */
     overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+    position: relative; /* Needed for positioning the logo */
 }
 
 .dashboard-container::before {
