@@ -28,7 +28,7 @@ body {
 }
 
 .logo-name {
-    color: #f0f0f0; /* Set the color of the names */
+    color: #000; /* Set the color of the names */
     font-size: 20px; /* Adjust the font size of the names */
 }
 
@@ -39,20 +39,16 @@ body {
 
 .drop-label {
     background-color: #f0f0f0; /* Grey background */
-    color: #f0f0f0;
+    color: #000;
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
 }
 
-#dropdown-checkbox {
-    display: none; /* Hide the checkbox */
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ffffff;
+    background-color: #f0f0f0; /* Set initial background color to grey */
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -66,15 +62,14 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #ffffff; /* Change background color to white on hover */
 }
 
-#dropdown-checkbox:checked + .dropdown-content {
-    display: block; /* Show dropdown when checkbox is checked */
+.dropdown-container:hover .dropdown-content {
+    display: block; /* Show dropdown when container is hovered */
 }
 
 /* Optional: Center the dropdown text vertically */
 .dropdown-content a {
     line-height: 36px;
 }
-
