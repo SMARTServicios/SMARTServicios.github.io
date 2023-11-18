@@ -1,2 +1,2 @@
 # SMARTServicios.github.io
-SMARTServicios, basado en Grafana Stack
+Web de prubas alojada en GitHub para la aplicación de SMARTServicios
