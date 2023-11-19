@@ -104,6 +104,15 @@ body {
     line-height: 36px;
 }
 
+.page-content {
+    text-align: center;
+    margin-top: 50px; /* Adjust the margin based on your preference */
+}
+
+.page-title {
+    font-size: 48px; /* Adjust the font size based on your preference */
+}
+
 .home-button {
     position: absolute;
     top: 20px;
