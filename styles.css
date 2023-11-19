@@ -103,3 +103,21 @@ body {
 .dropdown-content a {
     line-height: 36px;
 }
+
+.home-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff0000; /* Choose your desired background color */
+    color: #ffffff; /* Choose your desired text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 26px;
+}
+
+.home-button:hover {
+    background-color: #ffffff; /* Change background color on hover */
+    color: #ff0000; /* Change text color on hover */
+}
+
